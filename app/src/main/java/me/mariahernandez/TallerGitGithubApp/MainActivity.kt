@@ -45,7 +45,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Taller() {
     Column(
-        horizontalAlignment = Alignment.CenterHorizontally,
+
 
     ) {
 
@@ -82,6 +82,69 @@ fun Taller() {
         )
 
         Spacer(modifier = Modifier.height(50.dp))
+
+        Text(
+            text = "EDAD",
+            textAlign = TextAlign.Center,
+            fontSize = 18.sp,
+            color = Color.Gray,
+
+        )
+
+        Spacer(modifier = Modifier.height(10.dp))
+
+        Text(
+            text = "21 años",
+            textAlign = TextAlign.Center,
+            fontSize = 18.sp,
+            color = Color.Black,
+
+            )
+
+
+        Spacer(modifier = Modifier.height(50.dp))
+
+        Text(
+            text = "CORREO",
+            textAlign = TextAlign.Center,
+            fontSize = 18.sp,
+            color = Color.Gray,
+
+            )
+
+        Spacer(modifier = Modifier.height(10.dp))
+
+        Text(
+            text = "hernandezochoa2004@gmail.com",
+            textAlign = TextAlign.Center,
+            fontSize = 18.sp,
+            color = Color.Black,
+
+            )
+
+        Spacer(modifier = Modifier.height(50.dp))
+
+        Text(
+            text = "CIUDAD",
+            textAlign = TextAlign.Center,
+            fontSize = 18.sp,
+            color = Color.Gray,
+
+            )
+
+        Spacer(modifier = Modifier.height(10.dp))
+
+        Text(
+            text = "Bucaramanga",
+            textAlign = TextAlign.Center,
+            fontSize = 18.sp,
+            color = Color.Black,
+
+            )
+
+
+
+
 
 
 
